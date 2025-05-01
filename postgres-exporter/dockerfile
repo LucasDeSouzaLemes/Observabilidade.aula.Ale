@@ -10,7 +10,11 @@ FROM bitnami/postgres-exporter:latest
 # - Porta: `5432` (porta padrão do PostgreSQL)
 # - Banco de dados: `postgres`
 # - Parâmetro `sslmode=disable` para desativar a conexão SSL.
+<<<<<<< HEAD
 ENV DATA_SOURCE_NAME=uspostgreser:minhasenhasecreta@db:5432/northwind?sslmode=disable
+=======
+ENV DATA_SOURCE_NAME=Lucas:0000@db:5432/banco_escola?sslmode=disable
+>>>>>>> 0651d45 (Atualização e implementação de alguns arquivos)
 
 # Expõe a porta 9187, que é usada pelo Postgres Exporter para disponibilizar as métricas no formato Prometheus.
 EXPOSE 9187

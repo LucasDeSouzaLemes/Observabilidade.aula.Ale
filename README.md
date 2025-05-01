@@ -19,7 +19,11 @@ O stack é composto por 4 serviços principais:
 
 - **PostgreSQL**:
   - O banco de dados PostgreSQL é executado dentro de um container Docker com uma configuração padrão.
+<<<<<<< HEAD
   - Ele está configurado com um usuário `admin`, senha `minhasenhasecreta` e banco de dados `northwind`.
+=======
+  - Ele está configurado com um usuário `Lucas`, senha `0000` e banco de dados `banco_escola`.
+>>>>>>> 0651d45 (Atualização e implementação de alguns arquivos)
   - As métricas do PostgreSQL serão coletadas através de uma ferramenta chamada *PostgreSQL Exporter*.
   
 - **PostgreSQL Exporter**:
